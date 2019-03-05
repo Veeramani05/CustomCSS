@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<link rel="stylesheet" href="assets/css/materialize.css" media="all">
+<link rel="stylesheet" href="assets/css/custom.css" media="all">
+<script src="assets/js/materialize.js"></script>
+<script src="assets/js/custom.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Bootstrap + Materialize Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+
+
+<div class="textprev" id="div1"style="opacity:0;width:0;height:0;">
+</div>
+<button id="button1" onclick="CopyToClipboard('div1')" style="display:none;">Click to copy</button>
+
+
+
+
+<div class="container">
+	<div class="row">
+		<p class="title">Get Started</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+	Click to Copy
+</button>
+<pre>
+<span><</span>link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<span><</span>script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"><span><</span>/script>
+<span><</span>script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"><span><</span>/script>
+<span><</span>link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<span><</span>link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<span><</span>script defer src="https://code.getmdl.io/1.3.0/material.min.js"><span><</span>/script>
+<span><</span>link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<span><</span>link rel="stylesheet" href="assets/css/materialize.css" media="all">
+<span><</span>link rel="stylesheet" href="assets/css/custom.css" media="all">
+<span><</span>script src="assets/js/materialize.js"><span><</span>/script>
+<span><</span>script src="assets/js/custom.js"><span><</span>/script>
+</pre>
+		<!-- Accent-colored raised button with ripple -->
+	
+	</div>
+	<hr>	
+
+  <div class="row">
+	<p class="title">1. Grid(Bootstrap)</p>
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+
+		  <hr>
+<div class="container">
+	<div class="row">
+		<p class="title">2. Table</p>
+		<div class="table-responsive">          
+		  <table class="table table-striped table-bordered table-hover table-condensed">
+			<thead>
+			  <tr>
+				<th>#</th>
+				<th>Firstname</th>
+				<th>Lastname</th>
+				<th>Age</th>
+				<th>City</th>
+				<th>Country</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td>1</td>
+				<td>Anna</td>
+				<td>Pitt</td>
+				<td>35</td>
+				<td>New York</td>
+				<td>USA</td>
+			  </tr>
+			</tbody>
+		  </table>
+		  </div>
+		  <hr>
+		  <p class="title">2.1 Table(Materialize)</p>
+			 <table class="bordered striped highlight centered responsive-table">
+			<thead>
+			  <tr>
+				  <th>Name</th>
+				  <th>Item Name</th>
+				  <th>Item Price</th>
+			  </tr>
+			</thead>
+
+			<tbody>
+			  <tr>
+				<td>Alvin</td>
+				<td>Eclair</td>
+				<td>$0.87</td>
+			  </tr>
+			  <tr>
+				<td>Alan</td>
+				<td>Jellybean</td>
+				<td>$3.76</td>
+			  </tr>
+			  <tr>
+				<td>Jonathan</td>
+				<td>Lollipop</td>
+				<td>$7.00</td>
+			  </tr>
+			</tbody>
+		  </table>
+		   <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>table class="bordered striped highlight centered responsive-table">
+	<span><</span>thead>
+		<span><</span>tr>
+			<span><</span>th>Name<span><</span>/th>
+			<span><</span>th>Item Name<span><</span>/th>
+			<span><</span>th>Item Price<span><</span>/th>
+		<span><</span>/tr>
+	<span><</span>/thead>
+	<span><</span>tbody>
+		<span><</span>tr>
+			<span><</span>td>Alvin<span><</span>/td>
+			<span><</span>td>Eclair<span><</span>/td>
+			<span><</span>td>$0.87<span><</span>/td>
+		<span><</span>/tr>
+		<span><</span>tr>
+			<span><</span>td>Alan<span><</span>/td>
+			<span><</span>td>Jellybean<span><</span>/td>
+			<span><</span>td>$3.76<span><</span>/td>
+		<span><</span>/tr>
+		<span><</span>tr>
+			<span><</span>td>Jonathan<span><</span>/td>
+			<span><</span>td>Lollipop<span><</span>/td>
+			<span><</span>td>$7.00<span><</span>/td>
+		<span><</span>/tr>
+	<span><</span>/tbody>
+<span><</span>/table>
+</pre>
+
+		  <hr>
+		  <p class="title">2.1 Pulse(Materialize)</p>
+		  <a class="btn btn-floating pulse"><i class="material-icons">menu</i></a>
+			<a class="btn btn-floating btn-large pulse"><i class="material-icons">cloud</i></a>
+			<a class="btn btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a>
+			 <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>a class="btn btn-floating pulse"><span><</span>i class="material-icons">menu<span><</span>/i><span><</span>/a>
+<span><</span>a class="btn btn-floating btn-large pulse"><span><</span>i class="material-icons">cloud<span><</span>/i><span><</span>/a>
+<span><</span>a class="btn btn-floating btn-large cyan pulse"><span><</span>i class="material-icons">edit<span><</span>/i><span><</span>/a>
+</pre>
+			
+			
+			
+			
+			
+			<hr>
+			<p class="title">2.1 Badge(Bootstrap)</p>
+				<a href="#">News <span class="badge"style="float:none;">5</span></a><br>
+				<a href="#">Comments <span class="badge"style="float:none;">10</span></a><br>
+				<a href="#">Updates <span class="badge"style="float:none;background:#757575;color:#fff;">2</span></a>
+
+				<p class="codetitle">Code</p>
+
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>				
+<pre>
+<span><</span>a href="#">News <span><</span>span class="badge"style="float:none;">5<span><</span>/span><span><</span>/a>
+<span><</span>a href="#">Comments <span><</span>span class="badge"style="float:none;">10<span><</span>/span><span><</span>/a>
+<span><</span>a href="#">Updates <span><</span>span class="badge"style="float:none;background:#757575;color:#fff;">2<span><</span>/span><span><</span>/a>
+</pre>	
+				
+				
+				
+		  <hr>
+			<p class="title">2.1 Badge(Materialize)</p>
+		   <div class="collection">
+			<a href="#!" class="collection-item"><span class="badge">1</span>Alan</a>
+			<a href="#!" class="collection-item"><span class="new badge">4</span>Alan</a>
+			<a href="#!" class="collection-item">Alan</a>
+			<a href="#!" class="collection-item"><span class="badge">14</span>Alan</a>
+		  </div>
+		  <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>		  
+<pre>
+<span><</span>div class="collection">
+	<span><</span>a href="#!" class="collection-item"><span><</span>span class="badge">1<span><</span>/span>Alan<span><</span>/a>
+	<span><</span>a href="#!" class="collection-item"><span><</span>span class="new badge">4<span><</span>/span>Alan<span><</span>/a>
+	<span><</span>a href="#!" class="collection-item">Alan<span><</span>/a>
+	<span><</span>a href="#!" class="collection-item"><span><</span>span class="badge">14<span><</span>/span>Alan<span><</span>/a>
+<span><</span>/div>
+</pre>
+		  <hr>
+		  <p class="title">3 Click-only FAB(Materialize)</p><br><br>
+		    <div class="fixed-action-btn  click-to-toggle">
+				<a class="btn-floating btn-large red">
+				  <i class="material-icons">menu</i>
+				</a>
+				<ul>
+				  <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+				  <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+				  <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+				  <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+				</ul>
+			</div>
+			
+			<p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="fixed-action-btn  click-to-toggle">
+	<span><</span>a class="btn-floating btn-large red">
+		<span><</span>i class="material-icons">menu<span><</span>/i>
+	<span><</span>/a>
+	<span><</span>ul>
+		<span><</span>li><span><</span>a class="btn-floating red"><span><</span>i class="material-icons">insert_chart<span><</span>/i><span><</span>/a><span><</span>/li>
+		<span><</span>li><span><</span>a class="btn-floating yellow darken-1"><span><</span>i class="material-icons">format_quote<span><</span>/i><span><</span>/a><span><</span>/li>
+		<span><</span>li><span><</span>a class="btn-floating green"><span><</span>i class="material-icons">publish<span><</span>/i><span><</span>/a><span><</span>/li>
+		<span><</span>li><span><</span>a class="btn-floating blue"><span><</span>i class="material-icons">attach_file<span><</span>/i><span><</span>/a><span><</span>/li>
+	<span><</span>/ul>
+<span><</span>/div>
+</pre>
+		  <hr>
+		  <p class="title">3 FAB(MDL)</p>
+			<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
+			  <i class="material-icons">add</i>
+			</button>
+			<p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>			
+<pre>
+<span><</span>button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
+	<span><</span>i class="material-icons">add<span><</span>/i>
+<span><</span>/button>
+</pre>
+			
+			
+		  <hr>
+		  <p class="title">4 Breadcrumbs(Bootstrap)</p>
+			<ul class="breadcrumb">
+			  <li><a href="#">Home</a></li>
+			  <li><a href="#">Pictures</a></li>
+			  <li><a href="#">Summer 15</a></li>
+			  <li>Italy</li>
+			</ul>
+			<p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>ul class="breadcrumb"<span>></span>
+	<span><</span>li><span><</span>a href="#">Home<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a href="#">Pictures<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a href="#">Summer 15<span><</span>/a><span><</span>/li>
+	<span><</span>li>Italy<span><</span>/li>
+<span><</span>/ul>
+</pre>
+	<hr>
+		  <p class="title">5 Card Reveal(Materialize)</p>
+			   
+			<div class="card small sticky-action">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator" src="http://materializecss.com/images/office.jpg">
+				</div>
+				<div class="card-content">
+					<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+					<p><a href="#">This is a link</a></p>
+				</div>
+				<div class="card-action"><!-- Accent-colored raised button with ripple -->
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+					  Button
+					</button>
+				</div>
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+					<p>Here is some more information about this product that is only revealed once clicked on.</p>
+				</div>
+			</div>  
+				<p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="card small sticky-action">
+	<span><</span>div class="card-image waves-effect waves-block waves-light">
+		<span><</span>img class="activator" src="http://materializecss.com/images/office.jpg">
+	<span><</span>/div>
+	<span><</span>div class="card-content">
+		<span><</span>span class="card-title activator grey-text text-darken-4">Card Title<span><</span>i class="material-icons right">more_vert<span><</span>/i><span><</span>/span>
+		<span><</span>p><span><</span>a href="#">This is a link<span><</span>/a><span><</span>/p>
+	<span><</span>/div>
+	<span><</span>div class="card-action"><!-- Accent-colored raised button with ripple -->
+		<span><</span>button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+			Button
+		<span><</span>/button>
+	<span><</span>/div>
+	<span><</span>div class="card-reveal">
+		<span><</span>span class="card-title grey-text text-darken-4">Card Title<span><</span>i class="material-icons right">close<span><</span>/i><span><</span>/span>
+		<span><</span>p>Here is some more information about this product that is only revealed once clicked on.<span><</span>/p>
+	<span><</span>/div>
+<span><</span>/div> 
+</pre>
+			  
+			  
+			  <hr>
+			  <p class="title">6 Forms(Bootstrap)</p>
+			  <p class="title">6.1 TextBox(Bootstrap)</p>
+			    <div class="form-group">
+					<label for="email">Email address:</label>
+					<input type="email" class="form-control browser-default" id="email">
+				</div>
+				<div class="form-group">
+				  <label for="comment">Comment:</label>
+				  <textarea class="form-control browser-default" rows="5" id="comment"></textarea>
+				</div>
+				 <select class="form-control browser-default" id="sel1">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				  </select>
+				  <br>
+			<p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>			
+<pre>
+<span><</span>div class="form-group">
+	<span><</span>label for="email">Email address:<span><</span>/label>
+	<span><</span>input type="email" class="form-control browser-default" id="email">
+<span><</span>/div>
+<span><</span>div class="form-group">
+	<span><</span>label for="comment">Comment:<span><</span>/label>
+	<span><</span>textarea class="form-control browser-default" rows="5" id="comment"><span><</span>/textarea>
+<span><</span>/div>
+<span><</span>select class="form-control browser-default" id="sel1">
+	<span><</span>option>1<span><</span>/option>
+	<span><</span>option>2<span><</span>/option>
+	<span><</span>option>3<span><</span>/option>
+	<span><</span>option>4<span><</span>/option>
+<span><</span>/select>
+</pre>
+			
+			  <hr>
+			  <p class="title">6 Forms(Materialize)</p>
+			  <p class="title">6.1 TextBox(Materialize)</p>
+			   <div class="input-field col s6">
+				  <i class="material-icons prefix">account_circle</i>
+				  <input id="icon_prefix" type="text" class="">
+				  <label for="icon_prefix">First Name</label>
+				</div>
+			  <div class="input-field col s12">
+				  <input id="email" type="email" class="validate">
+				  <label for="email" data-error="wrong" data-success="right">Email</label>
+				</div>
+				<div class="input-field col s12">
+				 <i class="material-icons prefix">mode_edit</i>
+				  <textarea id="textarea1" class="materialize-textarea"></textarea>
+				  <label for="textarea1">Textarea</label>
+				</div>
+				<select multiple>
+				  <option value="" disabled selected>Choose your option</option>
+				  <option value="1" data-icon="http://materializecss.com/images/sample-1.jpg" class="circle">Option 1</option>
+				  <option value="2" data-icon="http://materializecss.com/images/sample-1.jpg" class="circle">Option 2</option>
+				  <option value="3" data-icon="http://materializecss.com/images/sample-1.jpg" class="circle">Option 3</option>
+				</select>
+				<label>Materialize Select</label>
+				 <p>
+				  <input class="with-gap" name="group1" type="radio" id="test3"  />
+				  <label for="test3">Green</label>
+				</p>
+				<p>
+				  <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+				  <label for="filled-in-box">Filled in</label>
+				</p>
+				
+				<br>
+				<p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="input-field col s6">
+	<span><</span>i class="material-icons prefix">account_circle<span><</span>/i>
+	<span><</span>input id="icon_prefix" type="text" class="">
+	<span><</span>label for="icon_prefix">First Name<span><</span>/label>
+<span><</span>/div>
+<span><</span>div class="input-field col s12">
+	<span><</span>input id="email" type="email" class="validate">
+	<span><</span>label for="email" data-error="wrong" data-success="right">Email<span><</span>/label>
+<span><</span>/div>
+<span><</span>div class="input-field col s12">
+	<span><</span>i class="material-icons prefix">mode_edit<span><</span>/i>
+	<span><</span>textarea id="textarea1" class="materialize-textarea"><span><</span>/textarea>
+	<span><</span>label for="textarea1">Textarea<span><</span>/label>
+<span><</span>/div>
+<span><</span>select multiple>
+	<span><</span>option value="" disabled selected>Choose your option<span><</span>/option>
+	<span><</span>option value="1" data-icon="http://materializecss.com/images/sample-1.jpg" class="circle">Option 1<span><</span>/option>
+	<span><</span>option value="2" data-icon="http://materializecss.com/images/sample-1.jpg" class="circle">Option 2<span><</span>/option>
+	<span><</span>option value="3" data-icon="http://materializecss.com/images/sample-1.jpg" class="circle">Option 3<span><</span>/option>
+<span><</span>/select>
+<span><</span>label>Materialize Select<span><</span>/label>
+<span><</span>p>
+	<span><</span>input class="with-gap" name="group1" type="radio" id="test3"  />
+	<span><</span>label for="test3">Green<span><</span>/label>
+<span><</span>/p>
+<span><</span>p>
+	<span><</span>input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+	<span><</span>label for="filled-in-box">Filled in<span><</span>/label>
+<span><</span>/p>
+</pre>				
+			  <hr>
+			   <p class="title">7 NavBar(Bootstrap)</p>
+			   
+				<nav class="navbar navbar-default browser-default">
+				  <div class="container-fluid">
+					<div class="navbar-header">
+					  <a class="navbar-brand" href="#">WebSiteName</a>
+					</div>
+					<ul class="nav navbar-nav">
+					  <li class="active"><a href="#">Home</a></li>
+					  <li><a href="#">Page 1</a></li>
+					  <li><a href="#">Page 2</a></li>
+					  <li><a href="#">Page 3</a></li>
+					</ul>
+				  </div>
+				</nav>
+				 <br>
+				 <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>nav class="navbar navbar-default browser-default">
+	<span><</span>div class="container-fluid">
+		<span><</span>div class="navbar-header">
+			<span><</span>a class="navbar-brand" href="#">WebSiteName<span><</span>/a>
+		<span><</span>/div>
+		<span><</span>ul class="nav navbar-nav">
+			<span><</span>li class="active"><span><</span>a href="#">Home<span><</span>/a><span><</span>/li>
+			<span><</span>li><span><</span>a href="#">Page 1<span><</span>/a><span><</span>/li>
+			<span><</span>li><span><</span>a href="#">Page 2<span><</span>/a><span><</span>/li>
+			<span><</span>li><span><</span>a href="#">Page 3<span><</span>/a><span><</span>/li>
+		<span><</span>/ul>
+	<span><</span>/div>
+<span><</span>/nav>
+</pre>
+			  <hr>
+				<p class="title">7 NavBar(Materialize)</p>
+			   
+				<nav>
+					<div class="nav-wrapper">
+					  <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+					  <ul class="right hide-on-med-and-down">
+						<li><a href="#"><i class="material-icons">search</i></a></li>
+						<li><a href="#"><i class="material-icons">view_module</i></a></li>
+						<li><a href="#"><i class="material-icons">refresh</i></a></li>
+						<li><a href="#"><i class="material-icons">more_vert</i></a></li>
+					  </ul>
+					</div>
+				</nav>
+				 <br>
+				 <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>nav>
+	<span><</span>div class="nav-wrapper">
+	<span><</span>a href="#!" class="brand-logo"><span><</span>i class="material-icons">cloud<span><</span>/i>Logo<span><</span>/a>
+		<span><</span>ul class="right hide-on-med-and-down">
+			<span><</span>li><span><</span>a href="#"><span><</span>i class="material-icons">search<span><</span>/i><span><</span>/a><span><</span>/li>
+			<span><</span>li><span><</span>a href="#"><span><</span>i class="material-icons">view_module<span><</span>/i><span><</span>/a><span><</span>/li>
+			<span><</span>li><span><</span>a href="#"><span><</span>i class="material-icons">refresh<span><</span>/i><span><</span>/a><span><</span>/li>
+			<span><</span>li><span><</span>a href="#"><span><</span>i class="material-icons">more_vert<span><</span>/i><span><</span>/a><span><</span>/li>
+		<span><</span>/ul>
+	<span><</span>/div>
+<span><</span>/nav>
+</pre>
+			  <hr>
+			  <p class="title">8 Loader(MDL)</p>
+			   <!-- MDL Spinner Component -->
+				<div class="mdl-spinner mdl-js-spinner is-active"></div>
+				
+				<br>
+				 <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="mdl-spinner mdl-js-spinner is-active"><span><</span>/div>
+</pre>
+				<!-- MDL Progress Bar with Indeterminate Progress -->
+				<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div><br>
+				 <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"><span><</span>/div>
+</pre>
+			  <hr>
+					
+			  <p class="title">8 Loader(Materialize)</p>
+			   <div class="preloader-wrapper small active">
+					<div class="spinner-layer spinner-green-only">
+					  <div class="circle-clipper left">
+						<div class="circle"></div>
+					  </div><div class="gap-patch">
+						<div class="circle"></div>
+					  </div><div class="circle-clipper right">
+						<div class="circle"></div>
+					  </div>
+					</div>
+				  </div>
+				  <br>
+				   <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="preloader-wrapper small active">
+	<span><</span>div class="spinner-layer spinner-green-only">
+		<span><</span>div class="circle-clipper left">
+			<span><</span>div class="circle"><span><</span>/div>
+		<span><</span>/div>
+		<span><</span>div class="gap-patch">
+			<span><</span>div class="circle"><span><</span>/div>
+		<span><</span>/div>
+		<span><</span>div class="circle-clipper right">
+			<span><</span>div class="circle"><span><</span>/div>
+		<span><</span>/div>
+	<span><</span>/div>
+<span><</span>/div>
+</pre>
+				  
+				<div class="progress">
+				  <div class="indeterminate"></div>
+			  </div>
+			  <br>
+			   <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="progress">
+	<span><</span>div class="indeterminate"><span><</span>/div>
+<span><</span>/div>
+</pre>
+			  
+			  
+			  <hr>
+						
+			  <p class="title">8 Collapse(Bootstrap)</p>
+			    <div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+						</h4>
+					  </div>
+					  <div id="collapse1" class="panel-collapse collapse in">
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					  </div>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+						</h4>
+					  </div>
+					  <div id="collapse2" class="panel-collapse collapse">
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					  </div>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+						<h4 class="panel-title">
+						  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+						</h4>
+					  </div>
+					  <div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					  </div>
+					</div>
+				 </div> 
+				 <br>
+				 			   <p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="panel-group" id="accordion">
+	<span><</span>div class="panel panel-default">
+		<span><</span>div class="panel-heading">
+			<span><</span>h4 class="panel-title">
+				<span><</span>a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1<span><</span>/a>
+			<span><</span>/h4>
+		<span><</span>/div>
+		<span><</span>div id="collapse1" class="panel-collapse collapse in">
+		<span><</span>div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span><</span>/div>
+		<span><</span>/div>
+	<span><</span>/div>
+	<span><</span>div class="panel panel-default">
+		<span><</span>div class="panel-heading">
+			<span><</span>h4 class="panel-title">
+				<span><</span>a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2<span><</span>/a>
+			<span><</span>/h4>
+		<span><</span>/div>
+		<span><</span>div id="collapse2" class="panel-collapse collapse">
+			<span><</span>div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<span><</span>/div>
+		<span><</span>/div>
+	<span><</span>/div>
+	<span><</span>div class="panel panel-default">
+		<span><</span>div class="panel-heading">
+			<span><</span>h4 class="panel-title">
+				<span><</span>a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3<span><</span>/a>
+			<span><</span>/h4>
+		<span><</span>/div>
+		<span><</span>div id="collapse3" class="panel-collapse collapse">
+			<span><</span>div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<span><</span>/div>
+		<span><</span>/div>
+	<span><</span>/div>
+<span><</span>/div>
+</pre>
+			  <hr>
+				 <p class="title">8 Collapse(Materialize)</p>
+				  <ul class="collapsible popout" data-collapsible="accordion">
+					<li>
+					  <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+					  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+					<li>
+					  <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+					  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+					<li>
+					  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+					  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+					</li>
+				  </ul>
+				  <br>
+<p class="codetitle">Code</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>ul class="collapsible popout" data-collapsible="accordion">
+	<span><</span>li>
+		<span><</span>div class="collapsible-header"><span><</span>i class="material-icons">filter_drama<span><</span>/i>First<span><</span>/div>
+		<span><</span>div class="collapsible-body"><span><</span>span>Lorem ipsum dolor sit amet.<span><</span>/span><span><</span>/div>
+	<span><</span>/li>
+	<span><</span>li>
+		<span><</span>div class="collapsible-header"><span><</span>i class="material-icons">place<span><</span>/i>Second<span><</span>/div>
+		<span><</span>div class="collapsible-body"><span><</span>span>Lorem ipsum dolor sit amet.<span><</span>/span><span><</span>/div>
+	<span><</span>/li>
+	<span><</span>li>
+		<span><</span>div class="collapsible-header"><span><</span>i class="material-icons">whatshot<span><</span>/i>Third<span><</span>/div>
+		<span><</span>div class="collapsible-body"><span><</span>span>Lorem ipsum dolor sit amet.<span><</span>/span><span><</span>/div>
+	<span><</span>/li>
+<span><</span>/ul>
+</pre>
+				  <hr>
+				<p class="title">8 Toast(Materialize)</p>
+				   <a class="btn" onclick="toastdisplay();">Toast!</a>
+				  <br>
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>a class="btn" onclick="toastdisplay();">Toast!<span><</span>/a>
+</pre>
+<br>
+
+<p class="codetitle">JS</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+function toastdisplay(){
+	var $toastContent = $('<span><</span>span>Hai Veeramani<span><</span>/span>').add($('<span><</span>button class="btn-flat toast-action">Undo<span><</span>/button>'));
+	Materialize.toast($toastContent, 1000,'',function(){alert('Your toast was dismissed')});
+}
+</pre>
+
+				<hr>
+				<p class="title">8 Toast(MDL)</p>
+				   <button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Toast</button>
+					<div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+					  <div class="mdl-snackbar__text"></div>
+					  <button class="mdl-snackbar__action" type="button"></button>
+					</div>
+					<script>
+					(function() {
+					  'use strict';
+					  window['counter'] = 0;
+					  var snackbarContainer = document.querySelector('#demo-toast-example');
+					  var showToastButton = document.querySelector('#demo-show-toast');
+					  showToastButton.addEventListener('click', function() {
+						'use strict';
+						var data = {message: 'Example Message # ' + ++counter};
+						snackbarContainer.MaterialSnackbar.showSnackbar(data);
+					  });
+					}());
+					</script>
+					<br>
+					
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Toast<span><</span>/button>
+<span><</span>div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+	<span><</span>div class="mdl-snackbar__text"><span><</span>/div>
+	<span><</span>button class="mdl-snackbar__action" type="button"><span><</span>/button>
+<span><</span>/div>
+</pre>
+<br>
+<p class="codetitle">JS</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+(function() {
+	'use strict';
+	window['counter'] = 0;
+	var snackbarContainer = document.querySelector('#demo-toast-example');
+	var showToastButton = document.querySelector('#demo-show-toast');
+	showToastButton.addEventListener('click', function() {
+		'use strict';
+		var data = {message: 'Example Message # ' + ++counter};
+		snackbarContainer.MaterialSnackbar.showSnackbar(data);
+	});
+}());
+</pre>
+
+					
+					
+					
+				<hr>
+				<p class="title">8 ToolTip(MDL)</p>
+					<div id="tt1" class="icon material-icons">add</div>
+					<div class="mdl-tooltip" data-mdl-for="tt1">
+					Follow
+					</div>
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div id="tt1" class="icon material-icons">add<span><</span>/div>
+<span><</span>div class="mdl-tooltip" data-mdl-for="tt1">
+	Follow
+<span><</span>/div>
+</pre>					
+				<hr>
+				
+				<p class="title">8 ToolTip(Materialize)</p>
+					<a class="btn tooltipped" data-position="top" data-delay="50" data-tooltip="I am a tooltip">Hover me!</a>
+					
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>a class="btn tooltipped" data-position="top" data-delay="50" data-tooltip="I am a tooltip">Hover me!<span><</span>/a>
+</pre>
+					
+					
+					
+					
+				<hr>
+				<p class="title">8 Dropdown(Bootstrap)</p>
+					<div class="dropdown">
+					  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+					  <span class="caret"></span></button>
+					  <ul class="dropdown-menu">
+						<li><a href="#">HTML</a></li>
+						<li><a href="#">CSS</a></li>
+						<li><a href="#">JavaScript</a></li>
+					  </ul>
+					</div>
+					
+					<br>
+					
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="dropdown">
+	<span><</span>button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+	<span><</span>span class="caret"><span><</span>/span><span><</span>/button>
+	<span><</span>ul class="dropdown-menu">
+		<span><</span>li><span><</span>a href="#">HTML<span><</span>/a><span><</span>/li>
+		<span><</span>li><span><</span>a href="#">CSS<span><</span>/a><span><</span>/li>
+		<span><</span>li><span><</span>a href="#">JavaScript<span><</span>/a><span><</span>/li>
+	<span><</span>/ul>
+<span><</span>/div>
+</pre>
+				<hr>
+				
+				<p class="title">8 Dropdown(Materialize)</p>
+					<!-- Dropdown Trigger -->
+				  <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
+
+				  <!-- Dropdown Structure -->
+				  <ul id='dropdown1' class='dropdown-content'>
+					<li><a href="#!">one</a></li>
+					<li><a href="#!">two</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">three</a></li>
+					<li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+					<li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+				  </ul>
+				  
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!<span><</span>/a>
+<span><</span>ul id='dropdown1' class='dropdown-content'>
+	<span><</span>li><span><</span>a href="#!">one<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a href="#!">two<span><</span>/a><span><</span>/li>
+	<span><</span>li class="divider"><span><</span>/li>
+	<span><</span>li><span><</span>a href="#!">three<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a href="#!"><span><</span>i class="material-icons">view_module<span><</span>/i>four<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a href="#!"><span><</span>i class="material-icons">cloud<span><</span>/i>five<span><</span>/a><span><</span>/li>
+<span><</span>/ul>
+</pre>
+				<hr>
+				
+				<p class="title">8 Material Box(Materialize)</p>
+					<!-- Dropdown Trigger -->
+				   <img class="materialboxed" width="650" src="http://materializecss.com/images/sample-1.jpg">
+				   <br>
+	
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>			   
+<pre>
+<span><</span>img class="materialboxed" width="650" src="http://materializecss.com/images/sample-1.jpg">
+</pre>
+				<hr>
+				<p class="title">8 slider(Materialize)</p>
+					<div class="slider">
+						<ul class="slides">
+						  <li>
+							<img src="https://image.freepik.com/free-vector/happy-new-year-2018-party-poster-banner-or-flyer-design_1302-7631.jpg"> <!-- random image -->
+							<div class="caption center-align">
+							  <h3>This is our big Tagline!</h3>
+							  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+							</div>
+						  </li>
+						  <li>
+							<img src="https://image.shutterstock.com/z/stock-vector-creative-banner-design-christmas-party-and-new-year-event-525577774.jpg"> <!-- random image -->
+							<div class="caption left-align">
+							  <h3>Left Aligned Caption</h3>
+							  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+							</div>
+						  </li>
+						  <li>
+							<img src="https://media.istockphoto.com/vectors/happy-new-year-2017-creative-banner-design-in-flat-style-vector-id636008462"> <!-- random image -->
+							<div class="caption right-align">
+							  <h3>Right Aligned Caption</h3>
+							  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+							</div>
+						  </li>
+						</ul>
+					</div>
+				<br>
+
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>				
+<pre>
+<span><</span>div class="slider">
+	<span><</span>ul class="slides">
+		<span><</span>li>
+			<span><</span>img src="https://image.freepik.com/free-vector/happy-new-year-2018-party-poster-banner-or-flyer-design_1302-7631.jpg"> <!-- random image -->
+			<span><</span>div class="caption center-align">
+				<span><</span>h3>This is our big Tagline!<span><</span>/h3>
+				<span><</span>h5 class="light grey-text text-lighten-3">Here's our small slogan.<span><</span>/h5>
+			<span><</span>/div>
+		<span><</span>/li>
+		<span><</span>li>
+			<span><</span>img src="https://image.shutterstock.com/z/stock-vector-creative-banner-design-christmas-party-and-new-year-event-525577774.jpg"> <!-- random image -->
+			<span><</span>div class="caption left-align">
+				<span><</span>h3>Left Aligned Caption<span><</span>/h3>
+				<span><</span>h5 class="light grey-text text-lighten-3">Here's our small slogan.<span><</span>/h5>
+			<span><</span>/div>
+		<span><</span>/li>
+		<span><</span>li>
+			<span><</span>img src="https://media.istockphoto.com/vectors/happy-new-year-2017-creative-banner-design-in-flat-style-vector-id636008462"> <!-- random image -->
+			<span><</span>div class="caption right-align">
+				<span><</span>h3>Right Aligned Caption<span><</span>/h3>
+				<span><</span>h5 class="light grey-text text-lighten-3">Here's our small slogan.<span><</span>/h5>
+			<span><</span>/div>
+		<span><</span>/li>
+	<span><</span>/ul>
+<span><</span>/div>
+</pre>
+				<hr>
+				<p class="title">8 carousel(Bootstrap)</p>
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+						<div class="item active">
+						  <img src="https://media.istockphoto.com/vectors/happy-new-year-2017-creative-banner-design-in-flat-style-vector-id636008462" alt="Los Angeles" style="width: 100%;">
+						</div>
+
+						<div class="item">
+						  <img src="https://media.istockphoto.com/vectors/happy-new-year-2017-creative-banner-design-in-flat-style-vector-id636008462" alt="Chicago" style="width: 100%;">
+						</div>
+
+						<div class="item">
+						  <img src="https://media.istockphoto.com/vectors/happy-new-year-2017-creative-banner-design-in-flat-style-vector-id636008462" alt="New York" style="width: 100%;">
+						</div>
+					  </div>
+
+					  <!-- Left and right controls -->
+					  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+					<br>
+					
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<span><</span>ol class="carousel-indicators">
+		<span><</span>li data-target="#myCarousel" data-slide-to="0" class="active"><span><</span>/li>
+		<span><</span>li data-target="#myCarousel" data-slide-to="1"><span><</span>/li>
+		<span><</span>li data-target="#myCarousel" data-slide-to="2"><span><</span>/li>
+	<span><</span>/ol>
+	<span><</span>div class="carousel-inner">
+		<span><</span>div class="item active">
+			<span><</span>img src="https://media.istockphoto.com/vectors/happy-new-year-2017-creative-banner-design-in-flat-style-vector-id636008462" alt="Los Angeles" style="width: 100%;">
+		<span><</span>/div>
+		<span><</span>div class="item">
+			<span><</span>img src="https://media.istockphoto.com/vectors/happy-new-year-2017-creative-banner-design-in-flat-style-vector-id636008462" alt="Chicago" style="width: 100%;">
+		<span><</span>/div>
+		<span><</span>div class="item">
+			<span><</span>img src="https://media.istockphoto.com/vectors/happy-new-year-2017-creative-banner-design-in-flat-style-vector-id636008462" alt="New York" style="width: 100%;">
+		<span><</span>/div>
+	<span><</span>/div>
+	<span><</span>a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span><</span>span class="glyphicon glyphicon-chevron-left"><span><</span>/span>
+		<span><</span>span class="sr-only">Previous<span><</span>/span>
+	<span><</span>/a>
+	<span><</span>a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span><</span>span class="glyphicon glyphicon-chevron-right"><span><</span>/span>
+		<span><</span>span class="sr-only">Next<span><</span>/span>
+	<span><</span>/a>
+<span><</span>/div>
+</pre>
+				<hr>
+				<p class="title">8 Modal(Bootstrap)</p>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+				<div id="myModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					  </div>
+					  <div class="modal-body">
+						<p>Some text in the modal.</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
+				<br>
+				
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal<span><</span>/button>
+<span><</span>div id="myModal" class="modal fade" role="dialog">
+	<span><</span>div class="modal-dialog">
+		<span><</span>div class="modal-content">
+			<span><</span>div class="modal-header">
+				<span><</span>button type="button" class="close" data-dismiss="modal">&times;<span><</span>/button>
+				<span><</span>h4 class="modal-title">Modal Header<span><</span>/h4>
+			<span><</span>/div>
+			<span><</span>div class="modal-body">
+				<span><</span>p>Some text in the modal.<span><</span>/p>
+			<span><</span>/div>
+			<span><</span>div class="modal-footer">
+				<span><</span>button type="button" class="btn btn-default" data-dismiss="modal">Close<span><</span>/button>
+			<span><</span>/div>
+		<span><</span>/div>
+	<span><</span>/div>
+<span><</span>/div>
+</pre>
+				<hr>
+				<p class="title">8 Side NavBar(Materialize)</p>
+					 <ul id="slide-out" class="side-nav">
+					<li>
+					<div class="user-view">
+					  <div class="background">
+						<img src="http://materializecss.com/images/office.jpg">
+					  </div>
+					  <a href="#!user"><img class="circle" src="http://materializecss.com/images/yuna.jpg"></a>
+					  <a href="#!name"><span class="white-text name">John Doe</span></a>
+					  <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+					</div></li>
+					<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+					<li><a href="#!">Second Link</a></li>
+					<li><div class="divider"></div></li>
+					<li><a class="subheader">Subheader</a></li>
+					<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+				  </ul>
+					<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+				
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>ul id="slide-out" class="side-nav">
+	<span><</span>li>
+		<span><</span>div class="user-view">
+			<span><</span>div class="background">
+				<span><</span>img src="http://materializecss.com/images/office.jpg">
+			<span><</span>/div>
+			<span><</span>a href="#!user"><span><</span>img class="circle" src="http://materializecss.com/images/yuna.jpg"><span><</span>/a>
+			<span><</span>a href="#!name"><span><</span>span class="white-text name">John Doe<span><</span>/span><span><</span>/a>
+			<span><</span>a href="#!email"><span><</span>span class="white-text email">jdandturk@gmail.com<span><</span>/span><span><</span>/a>
+		<span><</span>/div>
+	<span><</span>/li>
+	<span><</span>li><span><</span>a href="#!"><span><</span>i class="material-icons">cloud</i>First Link With Icon<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a href="#!">Second Link<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>div class="divider"><span><</span>/div><span><</span>/li>
+	<span><</span>li><span><</span>a class="subheader">Subheader<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a class="waves-effect" href="#!">Third Link With Waves<span><</span>/a><span><</span>/li>
+<span><</span>/ul>
+<span><</span>a href="#" data-activates="slide-out" class="button-collapse"><span><</span>i class="material-icons">menu<span><</span>/i><span><</span>/a>
+</pre>		  
+				<hr>
+				<p class="title">8 Nav Tabs(Bootstrap)</p>
+					<ul class="nav nav-tabs">
+					  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+					  <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+					  <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+					</ul>
+
+					<div class="tab-content">
+					  <div id="home" class="tab-pane fade in active">
+						<h3>HOME</h3>
+						<p>Some content.</p>
+					  </div>
+					  <div id="menu1" class="tab-pane fade">
+						<h3>Menu 1</h3>
+						<p>Some content in menu 1.</p>
+					  </div>
+					  <div id="menu2" class="tab-pane fade">
+						<h3>Menu 2</h3>
+						<p>Some content in menu 2.</p>
+					  </div>
+					</div>
+					
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>ul class="nav nav-tabs">
+	<span><</span>li class="active"><span><</span>a data-toggle="tab" href="#home">Home<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a data-toggle="tab" href="#menu1">Menu 1<span><</span>/a><span><</span>/li>
+	<span><</span>li><span><</span>a data-toggle="tab" href="#menu2">Menu 2<span><</span>/a><span><</span>/li>
+<span><</span>/ul>
+<span><</span>div class="tab-content">
+	<span><</span>div id="home" class="tab-pane fade in active">
+		<span><</span>h3>HOME<span><</span>/h3>
+		<span><</span>p>Some content.<span><</span>/p>
+	<span><</span>/div>
+	<span><</span>div id="menu1" class="tab-pane fade">
+		<span><</span>h3>Menu 1<span><</span>/h3>
+		<span><</span>p>Some content in menu 1.<span><</span>/p>
+	<span><</span>/div>
+	<span><</span>div id="menu2" class="tab-pane fade">
+		<span><</span>h3>Menu 2<span><</span>/h3>
+		<span><</span>p>Some content in menu 2.<span><</span>/p>
+	<span><</span>/div>
+<span><</span>/div>
+</pre>
+				<hr>
+				<p class="title">8 Nav Tabs(MDL)</p>
+					<!-- Simple header with fixed tabs. -->
+					<div class="mdl-layout mdl-js-layout">
+					  <header class="mdl-layout__header">
+						<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+						  <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+						  <a href="#fixed-tab-2" class="mdl-layout__tab">Tab 2</a>
+						  <a href="#fixed-tab-3" class="mdl-layout__tab">Tab 3</a>
+						</div>
+					  </header>
+					  <main class="mdl-layout__content">
+						<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+						  <div class="page-content">1</div>
+						</section>
+						<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+						  <div class="page-content">2</div>
+						</section>
+						<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+						  <div class="page-content">3</div>
+						</section>
+					  </main>
+					</div>
+					<br>
+					
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="mdl-layout mdl-js-layout">
+	<span><</span>header class="mdl-layout__header">
+		<span><</span>div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+			<span><</span>a href="#fixed-tab-1" class="mdl-layout__tab is-active">Tab 1<span><</span>/a>
+			<span><</span>a href="#fixed-tab-2" class="mdl-layout__tab">Tab 2<span><</span>/a>
+			<span><</span>a href="#fixed-tab-3" class="mdl-layout__tab">Tab 3<span><</span>/a>
+		<span><</span>/div>
+	<span><</span>/header>
+	<span><</span>main class="mdl-layout__content">
+		<span><</span>section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+			<span><</span>div class="page-content">1<span><</span>/div>
+		<span><</span>/section>
+		<span><</span>section class="mdl-layout__tab-panel" id="fixed-tab-2">
+			<span><</span>div class="page-content">2<span><</span>/div>
+		<span><</span>/section>
+		<span><</span>section class="mdl-layout__tab-panel" id="fixed-tab-3">
+			<span><</span>div class="page-content">3<span><</span>/div>
+		<span><</span>/section>
+	<span><</span>/main>
+<span><</span>/div>
+</pre>
+				<hr>
+				<p class="title">8 Nav Tabs(Materialize)</p>
+					<div class="row">
+					<div class="col s12">
+					  <ul class="tabs">
+						<li class="tab col s3"><a href="#test1">Test 1</a></li>
+						<li class="tab col s3"><a href="#test11">Test 1</a></li>
+						<li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+						<li class="tab col s3"><a href="#test4">Test 4</a></li>
+					  </ul>
+					</div>
+					<div id="test1" class="col s12">Test 1</div>
+					<div id="test11" class="col s12">Test 1</div>
+					<div id="test2" class="col s12">Test 2</div>
+					<div id="test4" class="col s12">Test 4</div>
+				  </div>
+	
+<p class="codetitle">Code</p>
+<p class="codetitle">HTML</p>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent copybtnstyle">
+Click to Copy
+</button>
+<pre>
+<span><</span>div class="row">
+	<span><</span>div class="col s12">
+		<span><</span>ul class="tabs">
+			<span><</span>li class="tab col s3"><span><</span>a href="#test1">Test 1<span><</span>/a><span><</span>/li>
+			<span><</span>li class="tab col s3"><span><</span>a href="#test11">Test 1<span><</span>/a><span><</span>/li>
+			<span><</span>li class="tab col s3"><span><</span>a class="active" href="#test2">Test 2<span><</span>/a><span><</span>/li>
+			<span><</span>li class="tab col s3"><span><</span>a href="#test4">Test 4<span><</span>/a><span><</span>/li>
+		<span><</span>/ul>
+	<span><</span>/div>
+	<span><</span>div id="test1" class="col s12">Test 1<span><</span>/div>
+	<span><</span>div id="test11" class="col s12">Test 1<span><</span>/div>
+	<span><</span>div id="test2" class="col s12">Test 2<span><</span>/div>
+	<span><</span>div id="test4" class="col s12">Test 4<span><</span>/div>
+<span><</span>/div>
+</pre>			  
+				<hr>
+				
+		
+		  
+	</div>
+</div>
+<div id="rocrltstrmve" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
+</div>
+
+
+</body>
+</html>

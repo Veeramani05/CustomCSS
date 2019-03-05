@@ -1,0 +1,38 @@
+body{
+	font-family: 'Roboto','Helvetica','Arial',sans-serif!important;
+    background-color: #FAFAFA;
+}
+.title{
+	font-size: 20px;
+    font-weight: 400;
+    color: #FF5722;
+	
+}
+label{
+	font-weight:400;
+	left:0 !important;
+}
+a{
+	font-weight:400;
+}
+.mdl-layout__container{
+	position: inherit;
+}
+.codetitle{
+	color: #4CAF50;
+    font-size: 20px;
+    font-weight: 400;
+}	
+span{
+	color:#009688;
+}
+.mdl-snackbar{
+    background-color: #4CAF50 !important;
+} 
+.copybtnstyle{
+	background: #FF5722;
+	display:none;
+    position: absolute;
+    right: 50px;
+	margin-top: 5px;
+}
